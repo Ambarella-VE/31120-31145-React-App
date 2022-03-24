@@ -1,9 +1,9 @@
-import React from 'react'
+import ItemListContainer from '../../components/itemListContainer/ItemListContainer'
 
 export default function Home(props) {
   return (
-    <h1>
-      {props.message}
-    </h1>
+    <>
+    <ItemListContainer message="Hola desde home"/>
+    </>
   )
 }
